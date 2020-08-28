@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="learning6.MasterController">
+    <children>
+        <fx:include fx:id="myLabel" source="MyLabel.fxml"/>
+        <TextField fx:id="textField" />
+        <Button text="Button" onAction="#btnAction"/>
+    </children>
+</HBox>
